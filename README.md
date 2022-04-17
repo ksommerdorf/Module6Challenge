@@ -24,7 +24,7 @@ Mytrip is a top travel technology company that specializes in internet related s
 * Use the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the customer's possible travel destinations. Then create a marker layer map with a pop-up marker for each city on the itinerary.
 
 
-# Development Environment 
+### Development Environment 
 * Jupyter Notebook
 * Python v3.10.4 Dependencies:
   * Python Pandas library
@@ -36,7 +36,7 @@ Mytrip is a top travel technology company that specializes in internet related s
   * Requests library
   * gmaps
 
-# Data Sources
+### Data Sources
 * [citypy](https://github.com/wingchen/citipy)
 * [jupyter - gmaps](https://jupyter-gmaps.readthedocs.io/en/latest/)
 * [OpenWeatherMap API - Current Weather](https://openweathermap.org/current)
@@ -45,17 +45,17 @@ Mytrip is a top travel technology company that specializes in internet related s
 
 ## Results
 
-# Retrieve Weather Data
+### Retrieve Weather Data
 Generated a set 2,000 random latitudes and longitudes, retrieved the nearest city, and performed an API call with the OpenWeatherMap. Used the API to retrieve the current weather description for each city and created a new DataFrame containing the updated weather data.
 
 ![Screenshot 2022-04-17 010757](https://user-images.githubusercontent.com/57520471/163701373-41b67d27-7160-497d-8b3a-21453124b9c0.png)
 
-# Customer Travel Destinations Map
+### Customer Travel Destinations Map
 Used input statements to retrieve customer weather preferences and used those preferences to identify potential travel destinations and nearby hotels. Visualized the potential travel destinations on a marker map with pop-markers.
 
 ![WeatherPy_vacation_map](https://user-images.githubusercontent.com/57520471/163701418-f8ec05e2-0e59-43ab-9744-dcae76af76d3.png)
 
-## Travel Itinerary Map
+### Travel Itinerary Map
 Used the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the customer's potential travel destinations. Then created a marker layer map with a pop-up marker for each city on the itinerary.
 
 ![WeatherPy_travel_map](https://user-images.githubusercontent.com/57520471/163701455-94606c69-c5a5-478e-bd9b-edd5deb0c5fe.png)
